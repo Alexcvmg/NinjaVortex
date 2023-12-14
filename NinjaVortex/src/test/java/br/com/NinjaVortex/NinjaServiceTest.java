@@ -22,7 +22,7 @@ public class NinjaServiceTest {
     @DisplayName("Testa se a quantidade de itens contidos na lista")
     public void testaGetAll() {
         List<Ninja> ninjas = ninjaService.getAll();
-        assertEquals(3, ninjas.size());
+        assertEquals(10, ninjas.size());
         logger.info("Passou no teste das quantidades de itens esperados!");
 
     }
