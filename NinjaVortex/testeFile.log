@@ -1,0 +1,20 @@
+20:27:38.458 166  [main]  INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.NinjaVortex.NinjaServiceTest]: NinjaServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:27:38.530 238  [main]  INFO o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.NinjaVortex.NinjaVortexApplication for test class br.com.NinjaVortex.NinjaServiceTest
+20:27:38.767 475  [main]  INFO b.com.NinjaVortex.NinjaServiceTest - Starting NinjaServiceTest using Java 17.0.9 with PID 44104 (started by Alexc in C:\Users\Alexc\OneDrive\Área de Trabalho\NinjaVortex\NinjaVortex)
+20:27:38.768 476  [main]  INFO b.com.NinjaVortex.NinjaServiceTest - No active profile set, falling back to 1 default profile: "default"
+20:27:39.568 1276 [main]  INFO b.com.NinjaVortex.NinjaServiceTest - Started NinjaServiceTest in 0.934 seconds (process running for 1.67)
+20:27:40.085 1793 [main]  INFO b.c.N.service.NinjaService - Apresentou o ninja correto!
+20:27:40.097 1805 [main]  INFO b.c.N.service.NinjaService - Passou no teste das quantidades de itens esperados!
+20:27:40.100 1808 [main]  INFO b.c.N.service.NinjaService - Disparou a excessão para um ninja que não existe!
+20:27:40.107 1815 [main]  INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.NinjaVortex.NinjaVortexApplicationTests]: NinjaVortexApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:27:40.109 1817 [main]  INFO o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.NinjaVortex.NinjaVortexApplication for test class br.com.NinjaVortex.NinjaVortexApplicationTests
+20:27:50.818 145  [main]  INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.NinjaVortex.NinjaServiceTest]: NinjaServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:27:50.875 202  [main]  INFO o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.NinjaVortex.NinjaVortexApplication for test class br.com.NinjaVortex.NinjaServiceTest
+20:27:51.095 422  [main]  INFO b.com.NinjaVortex.NinjaServiceTest - Starting NinjaServiceTest using Java 17.0.9 with PID 38332 (started by Alexc in C:\Users\Alexc\OneDrive\Área de Trabalho\NinjaVortex\NinjaVortex)
+20:27:51.095 422  [main]  INFO b.com.NinjaVortex.NinjaServiceTest - No active profile set, falling back to 1 default profile: "default"
+20:27:51.849 1176 [main]  INFO b.com.NinjaVortex.NinjaServiceTest - Started NinjaServiceTest in 0.882 seconds (process running for 1.528)
+20:27:52.385 1712 [main]  INFO b.c.N.service.NinjaService - Apresentou o ninja correto!
+20:27:52.398 1725 [main]  INFO b.c.N.service.NinjaService - Passou no teste das quantidades de itens esperados!
+20:27:52.408 1735 [main]  INFO b.c.N.service.NinjaService - Disparou a excessão para um ninja que não existe!
+20:27:52.417 1744 [main]  INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.NinjaVortex.NinjaVortexApplicationTests]: NinjaVortexApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:27:52.418 1745 [main]  INFO o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.NinjaVortex.NinjaVortexApplication for test class br.com.NinjaVortex.NinjaVortexApplicationTests

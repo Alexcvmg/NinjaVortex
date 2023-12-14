@@ -1,0 +1,5 @@
+br\com\NinjaVortex\models\Ninja.class
+br\com\NinjaVortex\NinjaVortexApplication.class
+br\com\NinjaVortex\service\NinjaService.class
+br\com\NinjaVortex\models\Jutso.class
+br\com\NinjaVortex\controllers\NinjaController.class

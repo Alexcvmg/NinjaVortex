@@ -17,7 +17,7 @@ public class NinjaController {
     NinjaService ninjaService;
     @GetMapping
     public List<Ninja> getAll(){
-        logger.info("GET ALL NINJAS");
+        logger.info("GET ALL NINJAS ");
         return ninjaService.getAll();
     }
 
@@ -36,7 +36,7 @@ public class NinjaController {
 
     @DeleteMapping("/{id}")
     public void deletar(@PathVariable int id){
-        logger.info("Deletar um NINJA" + id);
+        logger.info("Deletar um NINJA " + id);
         ninjaService.deletar(id);
     }
 

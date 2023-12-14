@@ -17,22 +17,34 @@ public class NinjaServiceTest {
     Logger logger = LoggerFactory.getLogger(NinjaService.class);
     @Autowired
     NinjaService ninjaService;
+
     @Test
     @DisplayName("Testa se a quantidade de itens contidos na lista")
-    public void testaGetAll(){
+    public void testaGetAll() {
         List<Ninja> ninjas = ninjaService.getAll();
         assertEquals(3, ninjas.size());
+        logger.info("Passou no teste das quantidades de itens esperados!");
 
     }
 
     @Test
     @DisplayName("Testa a apresentação de apenas um ninja")
-    public void testaGetById(){
+    public void testaGetById() {
         Ninja ninja = ninjaService.getById(0);
         assertEquals("Naruto", ninja.getName());
+        logger.info("Apresentou o ninja correto!");
+
 
     }
 
+    @Test
+    @DisplayName("Testa um ID de um ninja que não existe na lista")
+    public void testaGetByIdSemExistencia() {
+        assertThrows(RuntimeException.class, () -> {
+            ninjaService.getById(20);
+        });
+        logger.info("Disparou a excessão para um ninja que não existe!");
+    }
 
 
 
